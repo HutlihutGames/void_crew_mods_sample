@@ -1,0 +1,13 @@
+{
+  "name": "com.hutlihut.void_crew_common",
+  "version": "0.1.0",
+  "displayName": "void_crew_common",
+  "description": "Shared library for Void Crew mods",
+  "keywords": [],
+  "author": {
+    "name": "Krstjns",
+    "email": "kris@hutlihut.dk",
+    "url": ""
+  },
+  "hideInEditor": false
+}
