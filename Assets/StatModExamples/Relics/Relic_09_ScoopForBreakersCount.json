@@ -1,0 +1,34 @@
+{
+  "modifiers": [
+    {
+      "name": "AttractorMaxRange",
+      "type": "PrimaryAddend",
+      "dynamic_value": {
+        "type": "BreakersFlipped",
+        "active_breakers": true,
+        "base_value": 75.0,
+        "scaling_type": "Linear"
+      },
+      "tag_config": {
+        "required": [
+          "Module_Type_GravityScoop"
+        ]
+      }
+    },
+    {
+      "name": "AttractorPullVelocity",
+      "type": "ExponentialMultiplier",
+      "dynamic_value": {
+        "type": "BreakersFlipped",
+        "active_breakers": true,
+        "base_value": 0.5,
+        "scaling_type": "Linear"
+      },
+      "tag_config": {
+        "required": [
+          "Module_Type_GravityScoop"
+        ]
+      }
+    }
+  ]
+}

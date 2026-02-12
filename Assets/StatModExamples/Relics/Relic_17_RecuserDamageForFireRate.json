@@ -1,0 +1,24 @@
+{
+  "modifiers": [
+    {
+      "name": "Damage",
+      "type": "ExponentialMultiplier",
+      "amount": 0.25,
+      "tag_config": {
+        "required": [
+          "Module_Family_Recuser"
+        ]
+      }
+    },
+    {
+      "name": "FireRate",
+      "type": "ExponentialMultiplier",
+      "amount": -0.15,
+      "tag_config": {
+        "required": [
+          "Module_Family_Recuser"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "modifiers": [
+    {
+      "name": "AmmoConsumptionEfficiency",
+      "type": "AdditiveMultiplier",
+      "amount": 0.25
+    },
+    {
+      "name": "Range",
+      "type": "ExponentialMultiplier",
+      "amount": -0.25,
+      "tag_config": {
+        "required": [
+          "Module_Category_Weapon"
+        ]
+      }
+    }
+  ]
+}

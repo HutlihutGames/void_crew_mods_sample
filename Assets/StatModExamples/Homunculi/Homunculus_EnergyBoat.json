@@ -1,0 +1,20 @@
+{
+  "modifiers": [
+    {
+      "name": "Damage",
+      "type": "ExponentialMultiplier",
+      "dynamic_value": {
+        "type": "BreakersFlipped",
+        "active_breakers": false,
+        "base_value": 0.15,
+        "scaling_type": "Linear"
+      },
+      "tag_config": {
+        "required": [
+          "Module_Category_Weapon",
+          "DamageType_Energy"
+        ]
+      }
+    }
+  ]
+}

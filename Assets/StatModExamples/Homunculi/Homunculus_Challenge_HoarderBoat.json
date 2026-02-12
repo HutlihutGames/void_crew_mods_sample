@@ -1,0 +1,28 @@
+{
+  "modifiers": [
+    {
+      "name": "AttractorMaxRange",
+      "type": "PrimaryAddend",
+      "dynamic_value": {
+        "type": "ResourceCount",
+        "resource_type": "Alloys",
+        "tier_threshold": 10,
+        "max_tiers": 5,
+        "base_value": 200.0,
+        "scaling_type": "Linear"
+      }
+    },
+    {
+      "name": "AttractorPullVelocity",
+      "type": "AdditiveMultiplier",
+      "dynamic_value": {
+        "type": "ResourceCount",
+        "resource_type": "Alloys",
+        "tier_threshold": 10,
+        "max_tiers": 5,
+        "base_value": 1.0,
+        "scaling_type": "Linear"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "modifiers": [
+    {
+      "name": "Damage",
+      "type": "AdditiveMultiplier",
+      "dynamic_value": {
+        "type": "ResourceCount",
+        "resource_type": "Biomass",
+        "tier_threshold": 15,
+        "max_tiers": -1,
+        "base_value": 0.1,
+        "scaling_type": "Linear"
+      }
+    },
+    {
+      "name": "ThrusterBoosterDuration",
+      "type": "AdditiveMultiplier",
+      "dynamic_value": {
+        "type": "ResourceCount",
+        "resource_type": "Biomass",
+        "tier_threshold": 10,
+        "max_tiers": -1,
+        "base_value": 0.05,
+        "scaling_type": "Linear"
+      }
+    }
+  ]
+}

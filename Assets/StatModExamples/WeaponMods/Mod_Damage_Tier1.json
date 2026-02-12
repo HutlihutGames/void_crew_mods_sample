@@ -1,0 +1,9 @@
+{
+  "modifiers": [
+    {
+      "name": "DamagePip",
+      "type": "PrimaryAddend",
+      "amount": 1
+    }
+  ]
+}

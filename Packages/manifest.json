@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.hutlihut.void_crew_common": "https://github.com/HutlihutGames/void_crew_common.git?path=Packages/com.hutlihut.void_crew_common",
     "com.unity.collab-proxy": "2.11.3",
     "com.unity.feature.development": "1.0.1",
     "com.unity.render-pipelines.high-definition": "14.0.12",

@@ -1,0 +1,15 @@
+{
+  "modifiers": [
+    {
+      "name": "Vulnerability",
+      "type": "ExponentialMultiplier",
+      "dynamic_value": {
+        "type": "DefectCount",
+        "active_defects": true,
+        "base_value": -0.1,
+        "scaling_type": "Diminishing",
+        "diminishing_cap": 0.5
+      }
+    }
+  ]
+}

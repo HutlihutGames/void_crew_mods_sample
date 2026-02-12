@@ -1,0 +1,31 @@
+{
+  "modifiers": [
+    {
+      "name": "FireRate",
+      "type": "AdditiveMultiplier",
+      "dynamic_value": {
+        "type": "DefectCount",
+        "active_defects": true,
+        "base_value": 0.2,
+        "scaling_type": "Diminishing",
+        "diminishing_cap": 2.0
+      },
+      "tag_config": {
+        "required": [
+          "Module_Category_Weapon"
+        ]
+      }
+    },
+    {
+      "name": "ForwardPower",
+      "type": "AdditiveMultiplier",
+      "dynamic_value": {
+        "type": "DefectCount",
+        "active_defects": true,
+        "base_value": 0.15,
+        "scaling_type": "Diminishing",
+        "diminishing_cap": 0.5
+      }
+    }
+  ]
+}

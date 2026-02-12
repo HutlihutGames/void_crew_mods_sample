@@ -1,0 +1,43 @@
+{
+  "modifiers": [
+    {
+      "name": "Damage",
+      "type": "AdditiveMultiplier",
+      "amount": 4.0,
+      "tag_config": {
+        "required_local": [
+          "Module_Family_Benediction",
+          "Module_Family_Confessor",
+          "Module_Family_Recuser"
+        ],
+        "required_local_criteria": "or"
+      }
+    },
+    {
+      "name": "Range",
+      "type": "AdditiveMultiplier",
+      "amount": 0.2,
+      "tag_config": {
+        "required_local": [
+          "Module_Family_Benediction",
+          "Module_Family_Confessor",
+          "Module_Family_Recuser"
+        ],
+        "required_local_criteria": "or"
+      }
+    },
+    {
+      "name": "FireRate",
+      "type": "ExponentialMultiplier",
+      "amount": -0.5,
+      "tag_config": {
+        "required_local": [
+          "Module_Family_Benediction",
+          "Module_Family_Confessor",
+          "Module_Family_Recuser"
+        ],
+        "required_local_criteria": "or"
+      }
+    }
+  ]
+}

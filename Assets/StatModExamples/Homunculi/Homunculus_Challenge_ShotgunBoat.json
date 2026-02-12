@@ -1,0 +1,14 @@
+{
+  "modifiers": [
+    {
+      "name": "Damage",
+      "type": "ExponentialMultiplier",
+      "amount": 2.0
+    },
+    {
+      "name": "Accuracy",
+      "type": "ExponentialMultiplier",
+      "amount": -0.75
+    }
+  ]
+}

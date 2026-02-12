@@ -1,0 +1,28 @@
+{
+  "modifiers": [
+    {
+      "name": "PowerWanted",
+      "type": "PrimaryAddend",
+      "amount": -2,
+      "tag_config": {
+        "required": [
+          "ShipPositional_Port",
+          "Module_Category_Weapon"
+        ]
+      }
+    },
+    {
+      "name": "PowerWanted",
+      "type": "PrimaryAddend",
+      "amount": 1,
+      "tag_config": {
+        "disabling": [
+          "Module_Category_PowerProvider"
+        ],
+        "required": [
+          "ShipPositional_Starboard"
+        ]
+      }
+    }
+  ]
+}

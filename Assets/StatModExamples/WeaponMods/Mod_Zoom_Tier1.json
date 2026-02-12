@@ -1,0 +1,9 @@
+{
+  "modifiers": [
+    {
+      "name": "MaxZoom",
+      "type": "AdditiveMultiplier",
+      "amount": 0.15
+    }
+  ]
+}

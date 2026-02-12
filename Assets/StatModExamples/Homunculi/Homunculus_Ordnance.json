@@ -1,0 +1,15 @@
+{
+  "modifiers": [
+    {
+      "name": "Range",
+      "type": "AdditiveMultiplier",
+      "dynamic_condition": {
+        "type": "ResourceCount",
+        "invert": true,
+        "threshold": 40,
+        "resource_type": "Alloys"
+      },
+      "amount": 0.3
+    }
+  ]
+}

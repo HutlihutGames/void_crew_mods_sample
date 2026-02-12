@@ -1,0 +1,29 @@
+{
+  "modifiers": [
+    {
+      "name": "FireRate",
+      "type": "AdditiveMultiplier",
+      "amount": 0.75
+    },
+    {
+      "name": "HeatDissipationPerSec",
+      "type": "AdditiveMultiplier",
+      "amount": 1.0
+    },
+    {
+      "name": "ReloadTime",
+      "type": "ExponentialMultiplier",
+      "amount": -0.75
+    },
+    {
+      "name": "ActiveReloadThreshold",
+      "type": "ExponentialMultiplier",
+      "amount": 2.0
+    },
+    {
+      "name": "Accuracy",
+      "type": "ExponentialMultiplier",
+      "amount": -0.5
+    }
+  ]
+}

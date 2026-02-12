@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3dcac5c2462584eaaecc9ff5e11743, type: 3}
+  m_Name: ShoulderCosmetic
+  m_EditorClassIdentifier: 
+  assetGuid: 3bbc3f63391271b409ff83c815d17908
+  Name: Custom shoulder
+  Description: 
+  Icon: {fileID: 21300000, guid: 3a29e13f9303efa4a9d7b3532f434805, type: 3}
+  ColorMap: {fileID: 2800000, guid: c3aee5cc4e46d1841919f63746be392c, type: 3}
+  NormalMap: {fileID: 2800000, guid: 0232b9535176f5d4cbd9958fd80288f1, type: 3}
+  ZonesMap: {fileID: 2800000, guid: 5979d5f78634eee438d6d6034d0f8146, type: 3}
+  MaskMap: {fileID: 2800000, guid: 376146ae22dbad047847c8afd30ae723, type: 3}
+  EmissionMap: {fileID: 2800000, guid: 07c03e7f475c42b46879fc221b7511eb, type: 3}
+  EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+  MainPatternTiling: 4
+  ShoulderMesh: {fileID: 6338396766444057719, guid: fa86acf1053b06e45839e99f367416b3,
+    type: 3}

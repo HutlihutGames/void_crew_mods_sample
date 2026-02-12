@@ -1,0 +1,14 @@
+{
+  "modifiers": [
+    {
+      "name": "ForwardPower",
+      "type": "AdditiveMultiplier",
+      "amount": 0.5
+    },
+    {
+      "name": "YawTorque",
+      "type": "ExponentialMultiplier",
+      "amount": -0.5
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "modifiers": [
+    {
+      "name": "ThrusterBoosterDuration",
+      "type": "ExponentialMultiplier",
+      "amount": 1.0
+    },
+    {
+      "name": "EnginePower",
+      "type": "ExponentialMultiplier",
+      "dynamic_condition": {
+        "type": "ThrusterBooster"
+      },
+      "amount": -0.2
+    }
+  ]
+}

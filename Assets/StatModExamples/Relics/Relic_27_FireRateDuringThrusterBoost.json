@@ -1,0 +1,12 @@
+{
+  "modifiers": [
+    {
+      "name": "FireRate",
+      "type": "AdditiveMultiplier",
+      "dynamic_condition": {
+        "type": "ThrusterBooster"
+      },
+      "amount": 0.2
+    }
+  ]
+}

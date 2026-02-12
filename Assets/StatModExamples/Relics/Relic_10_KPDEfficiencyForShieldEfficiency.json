@@ -1,0 +1,29 @@
+{
+  "modifiers": [
+    {
+      "name": "KpdTrackingRange",
+      "type": "ExponentialMultiplier",
+      "amount": 0.5,
+      "tag_config": {
+        "required": [
+          "Module_Type_KineticPointDefense"
+        ]
+      }
+    },
+    {
+      "name": "KpdCooldownAfterBurst",
+      "type": "ExponentialMultiplier",
+      "amount": -0.5,
+      "tag_config": {
+        "required": [
+          "Module_Type_KineticPointDefense"
+        ]
+      }
+    },
+    {
+      "name": "ShieldAbsorption",
+      "type": "ExponentialMultiplier",
+      "amount": -0.25
+    }
+  ]
+}

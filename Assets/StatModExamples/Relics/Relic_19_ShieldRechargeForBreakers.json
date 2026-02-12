@@ -1,0 +1,14 @@
+{
+  "modifiers": [
+    {
+      "name": "ShieldRechargeSpeed",
+      "type": "PrimaryAddend",
+      "amount": 0.2
+    },
+    {
+      "name": "BreakerTemperatureShift",
+      "type": "AdditiveMultiplier",
+      "amount": 0.5
+    }
+  ]
+}

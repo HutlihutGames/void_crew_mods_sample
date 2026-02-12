@@ -1,0 +1,14 @@
+{
+  "modifiers": [
+    {
+      "name": "Damage",
+      "type": "ExponentialMultiplier",
+      "amount": 0.25,
+      "tag_config": {
+        "required": [
+          "ShipPositional_Aft"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "modifiers": [
+    {
+      "name": "FireRate",
+      "type": "AdditiveMultiplier",
+      "amount": 0.25,
+      "tag_config": {
+        "required": [
+          "Module_Category_Weapon"
+        ]
+      }
+    },
+    {
+      "name": "Range",
+      "type": "AdditiveMultiplier",
+      "amount": 0.15,
+      "tag_config": {
+        "required": [
+          "Module_Category_Weapon"
+        ]
+      }
+    },
+    {
+      "name": "ScanRange",
+      "type": "AdditiveMultiplier",
+      "amount": 0.5
+    },
+    {
+      "name": "ScanSpeedIncreased",
+      "type": "PrimaryAddend",
+      "amount": 1
+    }
+  ]
+}

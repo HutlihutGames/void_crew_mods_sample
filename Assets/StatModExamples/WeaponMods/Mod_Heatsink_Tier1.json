@@ -1,0 +1,9 @@
+{
+  "modifiers": [
+    {
+      "name": "HeatDissipationPerSec",
+      "type": "AdditiveMultiplier",
+      "amount": 0.5
+    }
+  ]
+}

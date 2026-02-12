@@ -1,0 +1,19 @@
+{
+  "modifiers": [
+    {
+      "name": "Damage",
+      "type": "ExponentialMultiplier",
+      "dynamic_value": {
+        "type": "PowerUsage",
+        "available_power": false,
+        "base_value": 0.1,
+        "scaling_type": "Linear"
+      },
+      "tag_config": {
+        "required": [
+          "Module_Family_Recuser"
+        ]
+      }
+    }
+  ]
+}

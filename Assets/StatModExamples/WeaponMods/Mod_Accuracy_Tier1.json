@@ -1,0 +1,9 @@
+{
+  "modifiers": [
+    {
+      "name": "AccuracyPip",
+      "type": "PrimaryAddend",
+      "amount": 1
+    }
+  ]
+}

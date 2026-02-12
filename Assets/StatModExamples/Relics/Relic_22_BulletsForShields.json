@@ -1,0 +1,14 @@
+{
+  "modifiers": [
+    {
+      "name": "AmmoConsumptionEfficiency",
+      "type": "AdditiveMultiplier",
+      "amount": 0.25
+    },
+    {
+      "name": "ShieldAbsorption",
+      "type": "ExponentialMultiplier",
+      "amount": -0.2
+    }
+  ]
+}

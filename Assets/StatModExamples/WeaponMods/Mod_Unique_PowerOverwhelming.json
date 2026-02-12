@@ -1,0 +1,19 @@
+{
+  "modifiers": [
+    {
+      "name": "PowerWanted",
+      "type": "PrimaryAddend",
+      "amount": 5
+    },
+    {
+      "name": "Damage",
+      "type": "ExponentialMultiplier",
+      "amount": 0.5
+    },
+    {
+      "name": "FireRate",
+      "type": "ExponentialMultiplier",
+      "amount": 0.5
+    }
+  ]
+}

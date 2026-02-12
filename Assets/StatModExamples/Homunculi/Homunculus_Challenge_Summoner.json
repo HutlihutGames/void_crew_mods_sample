@@ -1,0 +1,19 @@
+{
+  "modifiers": [
+    {
+      "name": "Damage",
+      "type": "ExponentialMultiplier",
+      "amount": -0.3
+    },
+    {
+      "name": "ShieldAbsorption",
+      "type": "AdditiveMultiplier",
+      "amount": 0.2
+    },
+    {
+      "name": "ShieldRechargeSpeed",
+      "type": "AdditiveMultiplier",
+      "amount": 0.5
+    }
+  ]
+}

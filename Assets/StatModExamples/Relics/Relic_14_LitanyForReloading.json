@@ -1,0 +1,34 @@
+{
+  "modifiers": [
+    {
+      "name": "Damage",
+      "type": "AdditiveMultiplier",
+      "amount": 0.25,
+      "tag_config": {
+        "required": [
+          "Module_Family_Litany"
+        ]
+      }
+    },
+    {
+      "name": "Accuracy",
+      "type": "AdditiveMultiplier",
+      "amount": 0.4,
+      "tag_config": {
+        "required": [
+          "Module_Family_Litany"
+        ]
+      }
+    },
+    {
+      "name": "ReloadTime",
+      "type": "AdditiveMultiplier",
+      "amount": 2.0,
+      "tag_config": {
+        "required": [
+          "Module_Family_Litany"
+        ]
+      }
+    }
+  ]
+}

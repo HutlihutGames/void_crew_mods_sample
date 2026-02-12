@@ -1,0 +1,30 @@
+{
+  "modifiers": [
+    {
+      "name": "PowerWanted",
+      "type": "PrimaryAddend",
+      "dynamic_condition": {
+        "type": "SinglePlayer"
+      },
+      "amount": -2,
+      "tag_config": {
+        "required": [
+          "Module_Brain"
+        ]
+      }
+    },
+    {
+      "name": "Damage",
+      "type": "AdditiveMultiplier",
+      "dynamic_condition": {
+        "type": "SinglePlayer"
+      },
+      "amount": 1.0,
+      "tag_config": {
+        "required": [
+          "Module_Brain"
+        ]
+      }
+    }
+  ]
+}

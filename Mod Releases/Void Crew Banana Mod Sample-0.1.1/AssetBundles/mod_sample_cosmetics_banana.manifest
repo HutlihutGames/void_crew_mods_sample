@@ -1,0 +1,59 @@
+ManifestFileVersion: 0
+CRC: 143338570
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7d15e555e9095f90555fc8030d4c0604
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 11fe96fb1d25393654bbdceeccf5dcc2
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 7d15e555e9095f90555fc8030d4c0604
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 72
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3cc9a23cef9fb184b8e3482d89f3e9d8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6c020babacb896548a3d504162131eb4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 08217cb188f0d3247a2ba412bc9a6dcf, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7c390f63ec511fb41997b46b1f763a00, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8749010a890d001409b4ce1761d81938, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 73398921
+  Script: {instanceID: 0}
+- Class: 2058629509
+  Script: {instanceID: 0}
+- Class: 2083052967
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/mod_sample_cosmetics_banana/banana.png
+- Assets/mod_sample_cosmetics_banana/BananaTrail.asset
+- Assets/mod_sample_cosmetics_banana/BananaTrail.prefab
+- Assets/mod_sample_cosmetics_banana/BananaProjectionColor.asset
+- Assets/mod_sample_cosmetics_banana/BananaArmorPattern.asset
+- Assets/mod_sample_cosmetics_banana/BananaColorScheme.asset
+- Assets/mod_sample_cosmetics_banana/BananaTrail.vfx
+- Assets/mod_sample_cosmetics_banana/banana_pattern.png
+- Assets/mod_sample_cosmetics_banana/banana_map.png
+- Assets/mod_sample_cosmetics_banana/BananaProjection.asset
+Dependencies: []

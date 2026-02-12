@@ -1,0 +1,34 @@
+{
+  "modifiers": [
+    {
+      "name": "Damage",
+      "type": "AdditiveMultiplier",
+      "amount": 0.5
+    },
+    {
+      "name": "Accuracy",
+      "type": "AdditiveMultiplier",
+      "amount": 0.25
+    },
+    {
+      "name": "Range",
+      "type": "AdditiveMultiplier",
+      "amount": 0.5
+    },
+    {
+      "name": "MaxZoom",
+      "type": "AdditiveMultiplier",
+      "amount": 0.75
+    },
+    {
+      "name": "ProjectileSpeed",
+      "type": "AdditiveMultiplier",
+      "amount": 2.0
+    },
+    {
+      "name": "FireRate",
+      "type": "ExponentialMultiplier",
+      "amount": -0.5
+    }
+  ]
+}

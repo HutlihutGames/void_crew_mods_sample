@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = $safeprojectname$
+build_property.ProjectDir = D:\Void Crew\void-crew-modding\void_crew_mods_sample\Visual Studio Templates\VCMTemplate\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

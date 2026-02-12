@@ -1,0 +1,17 @@
+{
+  "modifiers": [
+    {
+      "name": "PowerWanted",
+      "type": "PrimaryAddend",
+      "dynamic_condition": {
+        "type": "SinglePlayer"
+      },
+      "amount": -2,
+      "tag_config": {
+        "required": [
+          "Module_Brain"
+        ]
+      }
+    }
+  ]
+}

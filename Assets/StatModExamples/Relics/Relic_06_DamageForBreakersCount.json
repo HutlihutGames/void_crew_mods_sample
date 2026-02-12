@@ -1,0 +1,14 @@
+{
+  "modifiers": [
+    {
+      "name": "Damage",
+      "type": "AdditiveMultiplier",
+      "dynamic_value": {
+        "type": "BreakersFlipped",
+        "active_breakers": false,
+        "base_value": 0.2,
+        "scaling_type": "Linear"
+      }
+    }
+  ]
+}

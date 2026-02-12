@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af6bc7d298d8f104caf8a45ee0502004, type: 3}
+  m_Name: SuitCosmetic
+  m_EditorClassIdentifier: 
+  assetGuid: 6567a69a38e2d794f89ffc9b03027b64
+  Name: Custom suit
+  Description: 
+  Icon: {fileID: 21300000, guid: 3a29e13f9303efa4a9d7b3532f434805, type: 3}
+  ColorMap: {fileID: 2800000, guid: 2fa2151684e55df4ba3d912a6fb872f2, type: 3}
+  NormalMap: {fileID: 2800000, guid: 949869976e2ebf341af7341ac82b5554, type: 3}
+  ZonesMap: {fileID: 2800000, guid: b2f7793c53a75bd47a3d9026dc96a6b8, type: 3}
+  MaskMap: {fileID: 2800000, guid: 7d024cf420b25cb48a0d3a451a0d856e, type: 3}
+  EmissionMap: {fileID: 2800000, guid: 22e8b7b57fbca0c459dd476fcadc32af, type: 3}
+  EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+  MainPatternTiling: 4
+  SuitMesh: {fileID: 5318849269853722121, guid: f8557e9d2b08d484fa9e0c0567fbf787,
+    type: 3}
+  ArmMesh: {fileID: 6390451552440553236, guid: 4a251c89e2ca2cb4ab2807b81f987bfd, type: 3}

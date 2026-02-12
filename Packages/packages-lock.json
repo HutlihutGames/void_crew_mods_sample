@@ -1,10 +1,13 @@
 {
   "dependencies": {
     "com.hutlihut.void_crew_common": {
-      "version": "file:com.hutlihut.void_crew_common",
+      "version": "https://github.com/HutlihutGames/void_crew_common.git?path=Packages/com.hutlihut.void_crew_common",
       "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
+      "source": "git",
+      "dependencies": {
+        "com.unity.render-pipelines.high-definition": "14.0.12"
+      },
+      "hash": "716641599b592dcf1355e97a82d9c1b70521b4b5"
     },
     "com.unity.burst": {
       "version": "1.8.21",

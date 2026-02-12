@@ -1,0 +1,19 @@
+{
+  "modifiers": [
+    {
+      "name": "TargetLockDamage",
+      "type": "AdditiveMultiplier",
+      "amount": 1.0
+    },
+    {
+      "name": "PowerProvided",
+      "type": "PrimaryAddend",
+      "amount": -2,
+      "tag_config": {
+        "required": [
+          "Module_Type_CentralComputer"
+        ]
+      }
+    }
+  ]
+}

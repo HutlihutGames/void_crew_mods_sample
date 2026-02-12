@@ -1,0 +1,14 @@
+{
+  "modifiers": [
+    {
+      "name": "Range",
+      "type": "AdditiveMultiplier",
+      "amount": 0.2
+    },
+    {
+      "name": "PowerWanted",
+      "type": "PrimaryAddend",
+      "amount": -2
+    }
+  ]
+}

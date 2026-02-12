@@ -1,0 +1,44 @@
+{
+  "modifiers": [
+    {
+      "name": "Accuracy",
+      "type": "AdditiveMultiplier",
+      "amount": 0.75,
+      "tag_config": {
+        "required": [
+          "Module_Family_Orison"
+        ]
+      }
+    },
+    {
+      "name": "Damage",
+      "type": "AdditiveMultiplier",
+      "amount": 0.75,
+      "tag_config": {
+        "required": [
+          "Module_Family_Orison"
+        ]
+      }
+    },
+    {
+      "name": "FireRate",
+      "type": "AdditiveMultiplier",
+      "amount": 0.5,
+      "tag_config": {
+        "required": [
+          "Module_Family_Orison"
+        ]
+      }
+    },
+    {
+      "name": "AmmoConsumptionEfficiency",
+      "type": "AdditiveMultiplier",
+      "amount": 2.0,
+      "tag_config": {
+        "required": [
+          "Module_Family_Orison"
+        ]
+      }
+    }
+  ]
+}

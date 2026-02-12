@@ -1,0 +1,14 @@
+{
+  "modifiers": [
+    {
+      "name": "Damage",
+      "type": "AdditiveMultiplier",
+      "amount": 0.3
+    },
+    {
+      "name": "ProjectileSpeed",
+      "type": "AdditiveMultiplier",
+      "amount": 0.4
+    }
+  ]
+}

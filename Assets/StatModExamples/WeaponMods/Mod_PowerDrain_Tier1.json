@@ -1,0 +1,9 @@
+{
+  "modifiers": [
+    {
+      "name": "PowerWanted",
+      "type": "PrimaryAddend",
+      "amount": -2
+    }
+  ]
+}

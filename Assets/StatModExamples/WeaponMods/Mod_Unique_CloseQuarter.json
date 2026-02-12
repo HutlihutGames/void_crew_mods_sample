@@ -1,0 +1,19 @@
+{
+  "modifiers": [
+    {
+      "name": "Damage",
+      "type": "AdditiveMultiplier",
+      "amount": 1.0
+    },
+    {
+      "name": "FireRate",
+      "type": "AdditiveMultiplier",
+      "amount": 0.5
+    },
+    {
+      "name": "Range",
+      "type": "ExponentialMultiplier",
+      "amount": -0.5
+    }
+  ]
+}
