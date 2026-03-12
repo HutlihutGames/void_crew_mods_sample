@@ -148,8 +148,7 @@ MonoBehaviour:
     Chapters: 00000000
     EncounterDifficulty: 1
   DropTableEntries:
-  - Weight: 20
-    Amount: 1
+  - Amount: 1
     Rarity: 1
     LocationType: 1
     DropCategory: 1
