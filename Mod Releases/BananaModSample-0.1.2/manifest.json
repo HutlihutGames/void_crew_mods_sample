@@ -1,6 +1,6 @@
 ﻿{
     "name":  "BananaModSample",
-    "version_number":  "0.1.1",
+    "version_number":  "0.1.2",
     "description":  "A basic mod containing asset bundles.",
     "website_url":  "",
     "dependencies":  [
