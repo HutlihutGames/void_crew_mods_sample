@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6077662229847870819}
   - component: {fileID: 7138706335335438126}
   - component: {fileID: -1904754318789263954}
+  - component: {fileID: 3214477199776501006}
   m_Layer: 0
   m_Name: Banana_relic
   m_TagString: Untagged
@@ -51,7 +52,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OverrideCollider: {fileID: 7138706335335438126}
   OverrideRenderer: {fileID: 8515837500388094195}
-  OverrideImpactAudio: {fileID: 8300000, guid: 161e47891064e6f4eb4d5b0101e32ff6, type: 3}
+  OverrideImpactAudio:
+  - {fileID: 8300000, guid: f0a0ce09d6d52c342851bed621c4521d, type: 3}
+  - {fileID: 8300000, guid: 6a7671f36d404e54581568b43c8e936c, type: 3}
+  - {fileID: 8300000, guid: 161e47891064e6f4eb4d5b0101e32ff6, type: 3}
   IsRelic: 1
   StatModsDescription: "{\r\n  \"modifiers\": [\r\n    {\r\n      \"id\": 1,\r\n     
     \"amount\": 5.0,\r\n      \"type\": \"AdditiveMultiplier\",\r\n      \"tag_config\":
@@ -152,6 +156,24 @@ MonoBehaviour:
     Rarity: 1
     LocationType: 1
     DropCategory: 1
+--- !u!114 &3214477199776501006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1772798140787983320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1f821e94cf5c548a2d31bf63c6e13a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Config:
+    Cost: 15
+    RecycleValue: 5
+    RequiredFabricatorLevel: 1
+    AvailableInGameModes: 255
+    CanBeRecycled: 1
 --- !u!1001 &7057071036096294007
 PrefabInstance:
   m_ObjectHideFlags: 0

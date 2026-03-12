@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6077662229847870819}
   - component: {fileID: 7138706335335438126}
   - component: {fileID: -1904754318789263954}
+  - component: {fileID: 5200699291434110344}
   m_Layer: 0
   m_Name: Banana
   m_TagString: Untagged
@@ -51,7 +52,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OverrideCollider: {fileID: 7138706335335438126}
   OverrideRenderer: {fileID: 8515837500388094195}
-  OverrideImpactAudio: {fileID: 8300000, guid: fa64d40b69b462245ac023b95ab1b961, type: 3}
+  OverrideImpactAudio:
+  - {fileID: 8300000, guid: 8f4b1707e62bf8d48834857a87cf299e, type: 3}
+  - {fileID: 8300000, guid: fa64d40b69b462245ac023b95ab1b961, type: 3}
+  - {fileID: 8300000, guid: 8898f7fc1afa79e499b1c0c523e814dd, type: 3}
 --- !u!114 &2784625397552506914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -134,11 +138,28 @@ MonoBehaviour:
     Chapters: 00000000
     EncounterDifficulty: 1
   DropTableEntries:
-  - Weight: 20
-    Amount: 1
+  - Amount: 1
     Rarity: 1
     LocationType: 1
     DropCategory: 1
+--- !u!114 &5200699291434110344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1772798140787983320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1f821e94cf5c548a2d31bf63c6e13a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Config:
+    Cost: 2
+    RecycleValue: 1
+    RequiredFabricatorLevel: 0
+    AvailableInGameModes: 255
+    CanBeRecycled: 1
 --- !u!1001 &7057071036096294007
 PrefabInstance:
   m_ObjectHideFlags: 0
