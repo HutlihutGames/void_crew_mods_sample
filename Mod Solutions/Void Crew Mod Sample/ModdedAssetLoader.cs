@@ -3,7 +3,9 @@ using RuntimeAssets;
 using System;
 using System.IO;
 using System.Reflection;
-using CG;
+using UnityEngine;
+using Debug = CG.Debug;
+using Object = UnityEngine.Object;
 
 namespace Void_Crew_Mod_Sample
 {
@@ -30,19 +32,38 @@ namespace Void_Crew_Mod_Sample
 
                 int loaded = 0;
 
-                foreach (var manifestPath in Directory.EnumerateFiles(dir, "*.manifest", SearchOption.TopDirectoryOnly))
+                foreach (var filePath in Directory.EnumerateFiles(dir, "*", SearchOption.TopDirectoryOnly))
                 {
-                    // Bundle file is the manifest path without ".manifest"
-                    var bundlePath = manifestPath.Substring(0, manifestPath.Length - ".manifest".Length);
+                    var fileName = Path.GetFileName(filePath);
 
-                    if (!File.Exists(bundlePath))
-                    {
-                        Debug.LogError($"[ModAssetLoader] Missing asset bundle for manifest: {manifestPath}");
+                    // Skip the mod DLL and any file that has an extension
+                    if (!string.IsNullOrEmpty(Path.GetExtension(filePath)))
                         continue;
-                    }
 
-                    RuntimeAssetsAPI.LoadAssetBundle(bundlePath);
-                    loaded++;
+                    // Skip directories just in case
+                    if (!File.Exists(filePath))
+                        continue;
+
+                    try
+                    {
+                        var bundle = AssetBundle.LoadFromFile(filePath);
+                        if (!(bool) (Object) bundle)
+                        {
+                            continue;
+                        }
+
+                        // Valid asset bundle, unload probe instance before real loading
+                        bundle.Unload(true);
+
+                        RuntimeAssetsAPI.LoadAssetBundle(filePath);
+                        loaded++;
+
+                        Debug.Log($"[ModAssetLoader] Loaded asset bundle: {fileName}");
+                    }
+                    catch (Exception ex)
+                    {
+                        Debug.LogError($"[ModAssetLoader] Error while probing/loading '{fileName}': {ex}");
+                    }
                 }
 
                 Debug.Log($"[ModAssetLoader] Loaded {loaded} asset bundle(s) from manifest pairs.");

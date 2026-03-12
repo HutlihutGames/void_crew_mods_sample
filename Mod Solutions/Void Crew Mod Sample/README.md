@@ -9,7 +9,7 @@ Void Crew Community Modding Discord: \
 
 # BananaModSample
 
-Version 0.1.1  
+Version 0.1.2  
 Developed by Hutlihut  
 Requires:  BepInEx-BepInExPack-5.4.2100, NihilityShift-VoidManager-1.2.8
 
