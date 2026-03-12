@@ -52,7 +52,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OverrideCollider: {fileID: 7138706335335438126}
   OverrideRenderer: {fileID: 8515837500388094195}
-  OverrideImpactAudio: {fileID: 8300000, guid: f0a0ce09d6d52c342851bed621c4521d, type: 3}
+  OverrideImpactAudio:
+  - {fileID: 8300000, guid: f0a0ce09d6d52c342851bed621c4521d, type: 3}
+  - {fileID: 8300000, guid: 6a7671f36d404e54581568b43c8e936c, type: 3}
+  - {fileID: 8300000, guid: 161e47891064e6f4eb4d5b0101e32ff6, type: 3}
   IsRelic: 0
   StatModsDescription: "{\r\n  \"modifiers\": [\r\n    {\r\n      \"id\": 1,\r\n     
     \"amount\": 5.0,\r\n      \"type\": \"AdditiveMultiplier\",\r\n      \"tag_config\":
