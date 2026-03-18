@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cc9a23cef9fb184b8e3482d89f3e9d8, type: 3}
+  m_Name: BananaProjectionSimple
+  m_EditorClassIdentifier: 
+  assetGuid: c10cc56bceae7ef4abb7652cf70e717f
+  Name: Banana
+  Description: Banana on your face
+  Icon: {fileID: 21300000, guid: 8d7bd3cddd5c19b4b95ef67f7886ea54, type: 3}
+  Texture: {fileID: 2800000, guid: 8b1e8974feb1d5b488c1cb6053fc9854, type: 3}
+  AnimationModifiers: []
+  references:
+    version: 2
+    RefIds: []

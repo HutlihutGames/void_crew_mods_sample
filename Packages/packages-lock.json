@@ -7,7 +7,7 @@
       "dependencies": {
         "com.unity.render-pipelines.high-definition": "14.0.12"
       },
-      "hash": "fe5a942a3eb51068fdf5be484607d865ba4ce46f"
+      "hash": "5aedb3e42de69a83900e7a1f407cf844637fd2d5"
     },
     "com.unity.burst": {
       "version": "1.8.21",

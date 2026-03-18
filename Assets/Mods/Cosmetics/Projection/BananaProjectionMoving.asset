@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cc9a23cef9fb184b8e3482d89f3e9d8, type: 3}
+  m_Name: BananaProjectionMoving
+  m_EditorClassIdentifier: 
+  assetGuid: 714cec0bc11c9c3499e2e4793dd93147
+  Name: Banana Moving
+  Description: Banana on your face
+  Icon: {fileID: 21300000, guid: 8d7bd3cddd5c19b4b95ef67f7886ea54, type: 3}
+  Texture: {fileID: 2800000, guid: 8b1e8974feb1d5b488c1cb6053fc9854, type: 3}
+  AnimationModifiers:
+  - rid: 4718530383082422278
+  - rid: 4718530383082422280
+  - rid: 4718530383082422282
+  references:
+    version: 2
+    RefIds:
+    - rid: 4718530383082422278
+      type: {class: ScaleProjectionAnimationModifier, ns: VC.Common.Cosmetics, asm: VoidCrewCommon}
+      data:
+        TargetFPS: 10
+        ScaleFactor: 1.5
+        EasingFunction: 0
+        Speed: 1
+    - rid: 4718530383082422280
+      type: {class: SineProjectionAnimationModifier, ns: VC.Common.Cosmetics, asm: VoidCrewCommon}
+      data:
+        TargetFPS: 30
+        AffectedAxis: 2
+        Amplitude: 0.25
+        Frequency: 1
+    - rid: 4718530383082422282
+      type: {class: RandomizerProjectionAnimationModifier, ns: VC.Common.Cosmetics,
+        asm: VoidCrewCommon}
+      data:
+        TargetFPS: 10
+        RandomizeEveryXFrames: 1
+        RandomizeRotation: 0
+        RotationRange:
+          x: 0
+          y: 360
+        RandomizeOffset: 0
+        OoffsetRange: {x: 0.5, y: 0.5}
+        RandomizeScale: 0
+        TilingRange:
+          x: 0.5
+          y: 1.5
