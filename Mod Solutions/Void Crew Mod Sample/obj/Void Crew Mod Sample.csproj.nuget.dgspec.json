@@ -5,7 +5,7 @@
   },
   "projects": {
     "D:\\Void Crew\\void-crew-modding\\void_crew_mods_sample\\Mod Solutions\\Void Crew Mod Sample\\Void Crew Mod Sample.csproj": {
-      "version": "0.1.1",
+      "version": "0.1.2",
       "restore": {
         "projectUniqueName": "D:\\Void Crew\\void-crew-modding\\void_crew_mods_sample\\Mod Solutions\\Void Crew Mod Sample\\Void Crew Mod Sample.csproj",
         "projectName": "BananaModSample",

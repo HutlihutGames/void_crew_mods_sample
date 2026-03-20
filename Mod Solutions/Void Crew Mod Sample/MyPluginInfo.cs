@@ -7,7 +7,7 @@ namespace Void_Crew_Mod_Sample
         public const string PLUGIN_GUID = $"{PLUGIN_ORIGINAL_AUTHOR}.{PLUGIN_NAME}";
         public const string PLUGIN_NAME = "BananaModSample";
         public const string USERS_PLUGIN_NAME = "BananaModSample";
-        public const string PLUGIN_VERSION = "0.1.2";
+        public const string PLUGIN_VERSION = "0.1.3";
         public const string PLUGIN_DESCRIPTION = "A basic mod containing asset bundles.";
         public const string PLUGIN_ORIGINAL_AUTHOR = "Hutlihut";
         public const string PLUGIN_AUTHORS = "Hutlihut";

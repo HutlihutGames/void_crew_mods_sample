@@ -4,7 +4,6 @@ using System;
 using System.IO;
 using System.Reflection;
 using UnityEngine;
-using Debug = CG.Debug;
 using Object = UnityEngine.Object;
 
 namespace Void_Crew_Mod_Sample
