@@ -1351,10 +1351,10 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "0.1.2",
+    "version": "0.1.4",
     "restore": {
       "projectUniqueName": "D:\\Void Crew\\void-crew-modding\\void_crew_mods_sample\\Mod Solutions\\Void Crew Mod Sample\\Void Crew Mod Sample.csproj",
-      "projectName": "BananaModSample",
+      "projectName": "ModdedAssetLoader",
       "projectPath": "D:\\Void Crew\\void-crew-modding\\void_crew_mods_sample\\Mod Solutions\\Void Crew Mod Sample\\Void Crew Mod Sample.csproj",
       "packagesPath": "C:\\Users\\Tobias\\.nuget\\packages\\",
       "outputPath": "D:\\Void Crew\\void-crew-modding\\void_crew_mods_sample\\Mod Solutions\\Void Crew Mod Sample\\obj\\",

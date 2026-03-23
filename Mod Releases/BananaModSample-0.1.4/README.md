@@ -7,9 +7,9 @@ Void Crew Official Discord: \
 Void Crew Community Modding Discord: \
 [![](https://img.shields.io/discord/1180651062550593536.svg?&logo=discord&logoColor=ffffff&style=flat&label=Discord&labelColor=24292f&color=111111)](https://discord.gg/g2u5wpbMGu "Void Crew Modding Discord")
 
-# ModdedAssetLoader
+# BananaModSample
 
-Version 0.1.4  
+Version 0.1.3  
 Developed by Hutlihut  
 Requires:  BepInEx-BepInExPack-5.4.2100, NihilityShift-VoidManager-1.2.8
 
@@ -25,17 +25,6 @@ Requires:  BepInEx-BepInExPack-5.4.2100, NihilityShift-VoidManager-1.2.8
 -
 
 ### 👥 Multiplayer Functionality
-
-# Note to mod developer: Remove all but those which match, and describe any custom functionality.
-- ✅ Client
-  - Only the client needs this mod.
-- ✅ Host
-  - Only the host needs this mod.
-- ✅ Session
-  - Requires the room to be marked as Mod_Session for functionality.
-  - Requires the room to be marked as Mod_Session for joining.
-  - Marks the room as Mod_Session when starting session as host.
-  - Marks the room as Mod_Session when hosting.
 - ✅ All
   - All players must have this mod installed.
 
@@ -44,5 +33,5 @@ Requires:  BepInEx-BepInExPack-5.4.2100, NihilityShift-VoidManager-1.2.8
 ## 🔧 Install Instructions - Installing via Mod Manager
 Installation via a Mod Manager is recommended.
 - Via Thunderstore website: press "Install with Mod Manager"
-- Via Mod Manager Client: Search for ModdedAssetLoader and install.
+- Via Mod Manager Client: Search for BananaModSample and install.
 - Via Manual Download: Use your Mod Manager's import function to install a local mod

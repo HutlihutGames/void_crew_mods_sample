@@ -7,9 +7,9 @@ Void Crew Official Discord: \
 Void Crew Community Modding Discord: \
 [![](https://img.shields.io/discord/1180651062550593536.svg?&logo=discord&logoColor=ffffff&style=flat&label=Discord&labelColor=24292f&color=111111)](https://discord.gg/g2u5wpbMGu "Void Crew Modding Discord")
 
-# BananaModSample
+# ModdedAssetLoader
 
-Version 0.1.3  
+Version 0.1.4  
 Developed by Hutlihut  
 Requires:  BepInEx-BepInExPack-5.4.2100, NihilityShift-VoidManager-1.2.8
 
@@ -44,5 +44,5 @@ Requires:  BepInEx-BepInExPack-5.4.2100, NihilityShift-VoidManager-1.2.8
 ## 🔧 Install Instructions - Installing via Mod Manager
 Installation via a Mod Manager is recommended.
 - Via Thunderstore website: press "Install with Mod Manager"
-- Via Mod Manager Client: Search for BananaModSample and install.
+- Via Mod Manager Client: Search for ModdedAssetLoader and install.
 - Via Manual Download: Use your Mod Manager's import function to install a local mod
