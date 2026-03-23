@@ -1,4 +1,3 @@
-using HarmonyLib;
 using RuntimeAssets;
 using System;
 using System.IO;
@@ -23,20 +22,21 @@ namespace Void_Crew_Mod_Sample
                 var dir = Path.GetDirectoryName(dllPath);
                 if (string.IsNullOrWhiteSpace(dir) || !Directory.Exists(dir))
                 {
-                    Debug.LogError($"[ModAssetLoader] Could not resolve DLL directory (dllPath='{dllPath}')");
+                    BepinPlugin.Log.LogError($"[ModAssetLoader] Could not resolve DLL directory (dllPath='{dllPath}')");
                     return;
                 }
 
-                Debug.Log($"[ModAssetLoader] Scanning for asset bundle manifests in: {dir}");
+                BepinPlugin.Log.LogInfo($"[ModAssetLoader] Scanning for asset bundle manifests in: {dir}");
 
                 int loaded = 0;
 
                 foreach (var filePath in Directory.EnumerateFiles(dir, "*", SearchOption.TopDirectoryOnly))
                 {
                     var fileName = Path.GetFileName(filePath);
+                    var fileExtension = Path.GetExtension(filePath);
 
-                    // Skip the mod DLL and any file that has an extension
-                    if (!string.IsNullOrEmpty(Path.GetExtension(filePath)))
+                    // Skip the mod DLL and any file that has an extension unless it is .metem
+                    if (!string.IsNullOrEmpty(fileExtension) && !(fileExtension == ".metem"))
                         continue;
 
                     // Skip directories just in case
@@ -57,19 +57,19 @@ namespace Void_Crew_Mod_Sample
                         RuntimeAssetsAPI.LoadAssetBundle(filePath);
                         loaded++;
 
-                        Debug.Log($"[ModAssetLoader] Loaded asset bundle: {fileName}");
+                        BepinPlugin.Log.LogInfo($"[ModAssetLoader] Loaded asset bundle: {fileName}");
                     }
                     catch (Exception ex)
                     {
-                        Debug.LogError($"[ModAssetLoader] Error while probing/loading '{fileName}': {ex}");
+                        BepinPlugin.Log.LogError($"[ModAssetLoader] Error while probing/loading '{fileName}': {ex}");
                     }
                 }
 
-                Debug.Log($"[ModAssetLoader] Loaded {loaded} asset bundle(s) from manifest pairs.");
+                BepinPlugin.Log.LogInfo($"[ModAssetLoader] Loaded {loaded} asset bundle(s) from manifest pairs.");
             }
             catch (Exception e)
             {
-                Debug.LogError($"[ModAssetLoader] Failed loading asset bundles: {e}");
+                BepinPlugin.Log.LogError($"[ModAssetLoader] Failed loading asset bundles: {e}");
             }
         }
     }

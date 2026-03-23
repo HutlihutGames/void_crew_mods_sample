@@ -1,0 +1,12 @@
+Copy this folder and rename the folder.
+Place exported .metem files in AssetBundles folder
+Replace icon.png with a unique icon for your mod.
+Update content of manifest.json
+- Name, short description and version
+Update content of README.md
+- Update main header: should be name of your mod
+- Update description: can be more complex than the one in manifest.json
+Rename ModdedAssetLoader.dll
+
+When done, zip the folder.
+The zip filder can be uploaded to Thunderstore, or loaded locally by Mod Managers for testing.
