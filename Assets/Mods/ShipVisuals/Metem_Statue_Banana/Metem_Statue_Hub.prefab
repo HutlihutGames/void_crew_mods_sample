@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3232587561767902950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4609310634713327991}
+  - component: {fileID: 3368031028367028223}
+  - component: {fileID: 3298788771357293878}
+  m_Layer: 0
+  m_Name: Metem_Statue_Hub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4609310634713327991
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3232587561767902950}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2619905598915248630}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3368031028367028223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3232587561767902950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c1366d1ab7cf3c40a4c8294e15a07ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetGuid: ac5362bac8013884482942ef6d47ece9
+  Name: Statue of METEM
+  Description: A golden statue commemorating the one and only METEM.
+  Icon: {fileID: 0}
+--- !u!114 &3298788771357293878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3232587561767902950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32f57e9c9d109e74c93d5e1085bc9c04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 3
+--- !u!1001 &121292301217195324
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4609310634713327991}
+    m_Modifications:
+    - target: {fileID: 2735141785791423690, guid: 7f894e177a1f5314a95c05995ab0a923,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2735141785791423690, guid: 7f894e177a1f5314a95c05995ab0a923,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.251
+      objectReference: {fileID: 0}
+    - target: {fileID: 2735141785791423690, guid: 7f894e177a1f5314a95c05995ab0a923,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.782
+      objectReference: {fileID: 0}
+    - target: {fileID: 2735141785791423690, guid: 7f894e177a1f5314a95c05995ab0a923,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2735141785791423690, guid: 7f894e177a1f5314a95c05995ab0a923,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2735141785791423690, guid: 7f894e177a1f5314a95c05995ab0a923,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2735141785791423690, guid: 7f894e177a1f5314a95c05995ab0a923,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2735141785791423690, guid: 7f894e177a1f5314a95c05995ab0a923,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2735141785791423690, guid: 7f894e177a1f5314a95c05995ab0a923,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2735141785791423690, guid: 7f894e177a1f5314a95c05995ab0a923,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3368407038603083376, guid: 7f894e177a1f5314a95c05995ab0a923,
+        type: 3}
+      propertyPath: m_Name
+      value: Metem_statue_v2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8737778142594730395, guid: 7f894e177a1f5314a95c05995ab0a923,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f894e177a1f5314a95c05995ab0a923, type: 3}
+--- !u!4 &2619905598915248630 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2735141785791423690, guid: 7f894e177a1f5314a95c05995ab0a923,
+    type: 3}
+  m_PrefabInstance: {fileID: 121292301217195324}
+  m_PrefabAsset: {fileID: 0}
