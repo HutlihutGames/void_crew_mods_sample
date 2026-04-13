@@ -6,7 +6,8 @@ Update content of manifest.json
 Update content of README.md
 - Update main header: should be name of your mod
 - Update description: can be more complex than the one in manifest.json
-Rename ModdedAssetLoader.dll
 
 When done, zip the folder.
 The zip filder can be uploaded to Thunderstore, or loaded locally by Mod Managers for testing.
+
+Requires Void Manager version 1.3.0 to handle loading of the mods.

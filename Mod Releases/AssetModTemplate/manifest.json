@@ -1,6 +1,6 @@
 ﻿{
-    "name":  "ModdedAssetLoader",
-    "version_number":  "0.1.4",
+    "name":  "NameOfYourMod",
+    "version_number":  "0.1.0",
     "description":  "A basic mod containing asset bundles.",
     "website_url":  "",
     "dependencies":  [

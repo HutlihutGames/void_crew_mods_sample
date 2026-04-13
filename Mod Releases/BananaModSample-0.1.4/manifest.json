@@ -1,10 +1,10 @@
 ﻿{
     "name":  "BananaModSample",
-    "version_number":  "0.1.3",
-    "description":  "A basic mod containing asset bundles.",
+    "version_number":  "0.1.4",
+    "description":  "A basic example mod containing banana themed asset bundles.",
     "website_url":  "",
     "dependencies":  [
                          "BepInEx-BepInExPack-5.4.2100",
-                         "NihilityShift-VoidManager-1.2.8"
+                         "NihilityShift-VoidManager-1.3.0"
                      ]
 }

@@ -9,16 +9,16 @@ Void Crew Community Modding Discord: \
 
 # BananaModSample
 
-Version 0.1.3  
+Version 0.1.4  
 Developed by Hutlihut  
-Requires:  BepInEx-BepInExPack-5.4.2100, NihilityShift-VoidManager-1.2.8
+Requires:  BepInEx-BepInExPack-5.4.2100, NihilityShift-VoidManager-1.3.0
 
 
 ---------------------
 
 ### 💡 Function(s)
 
-- A basic mod containing asset bundles.
+- A basic example mod containing banana themed asset bundles.
 
 ### 🎮 Client Usage
 
